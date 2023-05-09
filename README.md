@@ -62,7 +62,7 @@ Jillani Soft Tech.(September, 2022). Market Segmentation in Insurance Unsupervis
 
 
 Using PCA to visualization pca scaled data with k-means of n_clusters=3.
-![png](output_181_1.png)
+![png](output_181_0.png)
 
 Using TSNE to visualization pca scaled data with k-means of n_clusters=3:
 ![png](output_183_1.png)
