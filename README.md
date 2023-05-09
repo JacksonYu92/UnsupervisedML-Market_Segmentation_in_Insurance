@@ -1,4 +1,4 @@
-# UnsupervisedML-Market_Segmentation_in_Insurance
+# UnsupervisedML-Market_Segmentation_in_Insurance<a name="TOP"></a>
 #### Project name: Market Segmentation in Insurance
 #### Author: Qichun Yu
 #### Notebook: https://github.com/JacksonYu92/UnsupervisedML-Market_Segmentation_in_Insurance/blob/main/Market_Segmentation_in_Insurance-Final_Project.ipynb
@@ -91,5 +91,5 @@ The study explored a range of different clustering algorithms such as k-means, h
 
 Based on the above analysis, customers can be divided into three groups. The first group of customers are low-incomers and small spenders; therefore, a saving plan is recommended for this group. The second group of customers are able to pay for credit cards on time and don't like to use cash advance so the company should offer a wealth management plan for this group. The last group of customers who use cash advance a lot are more likely to accept a loan plan from the insurance company. 
 
-[Go to top](#README.md)
+[Go to top](#TOP)
 
