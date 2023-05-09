@@ -59,3 +59,33 @@ The sample Dataset summarizes the usage behavior of about 8,950 active credit ca
 ### Citation
 
 Jillani Soft Tech.(September, 2022). Market Segmentation in Insurance Unsupervised. Retrieved from https://www.kaggle.com/datasets/jillanisofttech/market-segmentation-in-insurance-unsupervised.
+
+
+Using PCA to visualization pca scaled data with k-means of n_clusters=3.
+![png](output_181_1.png)
+
+Using TSNE to visualization pca scaled data with k-means of n_clusters=3:
+![png](output_183_1.png)
+
+![png](output_196_1.png)
+
+
+Let's create a summary table for these three customer group:
+
+|Cluster | Balance | Purchases | Oneoff_purchases | Installments Purchases | Cash Advance | Credit_limit | Payments | Insurance Product Recommendation |
+|:-----: | :-: |:-: |:-: |:-: |:-: |:-: |:-: | :-: |
+| Cluster 0 | low	| low | low | low | low | low | low | <strong> Saving Plan</strong> |
+| Cluster 1 | medium | high| high | high | low | high | high | <strong> Wealth Management </strong> |
+| Cluster 2 | high | low | low | low | high | high | high | <strong> Loan </strong> |
+
+**Recommendation:**<br>
+
+**Cluster 0:** Customers who have low balances, low credit limits, and low purchases. These customers could be low-income and don't likely spend too much on purchasing goods. We should offer a **saving plan** for them. <br>
+**Cluster 1:** Customers who have high credit limits, high purchases, low cash advance, and high payments. These customers could be medium and high-income customers who are able to pay for their credit cards on time. They don't use cash advance too often; therefore, we should offer a **wealth management plan** for this group of customers. <br>
+**Cluster 2:** Customers who have a high balance, low purchase, high cash advance, high credit limit, and high payments. Customers who use cash advance a lot is more likely to need a loan. Therefore, we should  offer a **loan plan** for this group of customers
+
+### Conclusion
+
+The study explored a range of different clustering algorithms such as k-means, hierarchical clustering, and DBSCAN. Standardization is useful for unsupervised models that require distance metrics. Different hyperparameters are evaluated with the silhouette score. The silhouette score is a metric that helps evaluate the performance of unsupervised learning methods. PCA and TSNE are methods used for dimensionality reduction and visualization in the project. After comparing with the silhouette score and visualized plots, '3' is the optimal number of clusters for the dataset. The PCA scaled data that used the k-means method with a k value of three is the optimal choice. 
+
+Based on the above analysis, customers can be divided into three groups. The first group of customers are low-incomers and small spenders; therefore, a saving plan is recommended for this group. The second group of customers are able to pay for credit cards on time and don't like to use cash advance so the company should offer a wealth management plan for this group. The last group of customers who use cash advance a lot are more likely to accept a loan plan from the insurance company. 
