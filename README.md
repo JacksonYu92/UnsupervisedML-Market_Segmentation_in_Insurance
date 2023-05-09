@@ -1,6 +1,7 @@
 # UnsupervisedML-Market_Segmentation_in_Insurance
 #### Project name: Market Segmentation in Insurance
 #### Author: Qichun Yu
+#### Notebook: https://github.com/JacksonYu92/UnsupervisedML-Market_Segmentation_in_Insurance/blob/main/Market_Segmentation_in_Insurance-Final_Project.ipynb
 
 ## Table of Contents
 1. [Introduction](#Abstract)  
